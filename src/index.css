@@ -14,22 +14,22 @@ code {
 }
 
 .header{
-  background:cadetblue;
+  background:#647ec7;
   text-align: center;
   color: aliceblue;
-  padding: 60px;
-  size: 50%;
+  padding: 15px;
+  size: 20%;
 }
 
 .home{
   flex:70%;
-  background: aqua;
+  background: white;
   padding: 20px;
 }
 
 .chatbot{
   flex:30%;
-  background:gray;
+  background:#f1f1f1;
   padding: 20px;
   position: fixed ;
   right:0;
@@ -39,7 +39,7 @@ code {
 .footer{
   padding: 20px;
   text-align: center;
-  background: red;
+  background:#dddd;
   position:fixed;
   width:100%;
   bottom:0;
