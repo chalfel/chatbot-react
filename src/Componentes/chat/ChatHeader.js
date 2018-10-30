@@ -2,7 +2,7 @@ import React from 'react'
 
 const ChatHeader = props => {
     return (
-        <div>
+        <div className='chat-header'>
         ChatBot
         </div>
 
