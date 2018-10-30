@@ -30,25 +30,28 @@ code {
 .chatbot{
   grid-area:chatbot;
   background:#f1f1f1;
+  height: calc(100vh - 150px);
 
-  position: fixed ;
-
+  
 
 }
 .footer{
   grid-area:footer;
-
   text-align: center;
   background:#dddd;
-  position:fixed;
- 
+  height: 50px;
+  width: 100%;
   bottom:0;
+  padding: 5px;
+  position: absolute;
+  
+ 
 }
 .conteudo{
-  display:flex;
+  display:grid;
   flex-wrap: wrap;
   grid-template-areas: 
-    'header header header header'
-    'home home home  chatbot'
-    'footer footer footer footer';
+    'header header header'
+    'home home chatbot'
+    'footer footer footer';
 }

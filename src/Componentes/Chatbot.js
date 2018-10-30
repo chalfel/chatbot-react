@@ -8,9 +8,11 @@ class Chatbot extends Component{
     render(){
         return(
             <div className = "chatbot">
-            <ChatHeader />
-            <ChatConversa />
-            <ChatMensagem />
+                <div className='chat-conteudo'>
+                    <ChatHeader />
+                    <ChatConversa />
+                    <ChatMensagem />
+                </div>
             </div>
         )
     }
